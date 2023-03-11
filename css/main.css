@@ -1,0 +1,121 @@
+.result.active {
+    display: block;
+}
+.result {
+    display: block;
+
+}
+h1 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #fff;
+}
+.book {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(47, 47, 47);
+}
+.input.danger {
+    border: 2px solid red;
+    animation: pulse 2s infinite;
+}
+.input.green {
+    border: 2px solid green;
+}
+.styleOutput {
+    width: 300px;
+    height: 37px;
+    background-color: rgb(10, 222, 225);
+    margin: 10px 40px;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+}
+/* .result.Allresults {
+    width: 350px;
+    height: 500px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 30px;
+} */
+.input {
+    outline: none;
+    display: block;
+    margin: 10px 40px;
+    width: 300px;
+    height: 37px;
+    border: none;
+    background-color: rgb(10, 222, 225);
+    font-weight: 300;
+    font-size: 13px;
+    transition: 1s;
+}
+.input:hover {
+    transform: scale(1.1);
+}
+.deletebutton:hover {
+    transform: scale(1.1);
+}
+.btn:hover {
+    transform: scale(1.1);
+}
+.styleOutput.hover {
+    transform: scale(1.1);
+}
+.deletebutton {
+    width: 120px;
+    height: 30px;
+    background-color: rgb(55, 255, 0);
+    border: none;
+    margin:10px 130px;
+    transition: 1s;
+}
+.btn {
+    width: 200px;
+    height: 37px;
+    background-color: blue;
+    border: none;
+    color: white;
+    margin: 0 30px;
+    transition: 1s;
+    
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    
+    width: 70%;
+}
+.form {
+    width: 400px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.result {
+    width: 400px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+  
+  
+  @keyframes pulse {
+    0% {
+      border-color: #fff;
+    }
+    50% {
+      border-color: #f00;
+    }
+    100% {
+      border-color: #fff;
+    }
+  }

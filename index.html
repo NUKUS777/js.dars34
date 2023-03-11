@@ -1,0 +1,26 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="book"><h1>Contact book</h1></div>
+    <div class="box">
+        <form action="" class="form">
+            <h3>New contact form</h3>
+            <input type="text" class="input" placeholder="ENTER YOUR NAME" required pattern="[a-zA-Z]+">
+            <input type="text" class="input" placeholder="ENTER YOUR RELATION STATUS" required >
+            <input type="tel" class="input" placeholder="ENTER YOUR PHONE NUMBER" pattern="[0-9]{5}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
+            <button class="btn" type="submit">Add contact</button>
+        </form>
+       <div class="result">
+        <h3>Contacts</h3>
+       </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html> 
